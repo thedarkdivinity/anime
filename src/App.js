@@ -25,9 +25,9 @@ const App = () => {
      
       
       <section>
-          <div className="container">
-        <div className="row">
-        <div className="col-md-6 col-lg-6 col-10 mx-auto">
+          <div className="container mt-4">
+        <div className="row gy-3">
+        
       {items.map((item) => {
         return (
           <>
@@ -40,7 +40,7 @@ const App = () => {
       })}
       </div>
           </div>
-          </div>
+          
           </section>
       
     
